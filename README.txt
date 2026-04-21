@@ -41,7 +41,7 @@ Required libraries (see `requirements.txt`):
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/battery-soh-autoregressive-bias.git
+git clone https://github.com/husnuulucay/Are-We-Really-Learning-Battery-Degradation.git
 cd battery-soh-autoregressive-bias
 pip install -r requirements.txt
 
