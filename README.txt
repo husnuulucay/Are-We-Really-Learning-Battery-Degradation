@@ -161,15 +161,6 @@ Lag features dominate SHAP importance
 
 Horizon analysis shows R² drops from 0.80 to 0.48 at 20 cycles
 
-📝 Citation
-If you use this code or findings in your research, please cite:
-
-@article{author2026reassessing,
-  title={Reassessing Battery SOH Prediction: Autoregressive Bias in Reported Performance},
-  author={[Your Name]},
-  journal={[Journal Name]},
-  year={2026}
-}
 
 📜 License
 This project is licensed under the MIT License.
