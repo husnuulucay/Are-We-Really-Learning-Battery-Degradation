@@ -1,0 +1,322 @@
+{
+  "XGBoost_RMSE_test": {
+    "metric": "RMSE",
+    "n_batteries": 4,
+    "unit": "battery-level",
+    "p_wilcoxon": 0.125,
+    "significant_wilcoxon": false,
+    "cohen_d_z": -1.3983430512766113,
+    "effect_size": "Büyük",
+    "ci_95_lower": -0.02786815086210793,
+    "ci_95_upper": -0.007944278519110821,
+    "bootstrap_n": 10000,
+    "bootstrap_method": "standard",
+    "mean_std": 0.01893111434870018,
+    "mean_rec": 0.03640174303332873,
+    "w_stat": 0.0,
+    "delta": 0.01747062868462855
+  },
+  "XGBoost_MAE_test": {
+    "metric": "MAE",
+    "n_batteries": 4,
+    "unit": "battery-level",
+    "p_wilcoxon": 0.125,
+    "significant_wilcoxon": false,
+    "cohen_d_z": -1.8467842288122194,
+    "effect_size": "Büyük",
+    "ci_95_lower": -0.022749815565616498,
+    "ci_95_upper": -0.009166018214382619,
+    "bootstrap_n": 10000,
+    "bootstrap_method": "standard",
+    "mean_std": 0.013858621803070655,
+    "mean_rec": 0.029667475417467642,
+    "w_stat": 0.0,
+    "delta": 0.01580885361439699
+  },
+  "XGBoost_MAPE_test": {
+    "metric": "MAPE",
+    "n_batteries": 4,
+    "unit": "battery-level",
+    "p_wilcoxon": 0.125,
+    "significant_wilcoxon": false,
+    "cohen_d_z": -1.856555956588369,
+    "effect_size": "Büyük",
+    "ci_95_lower": -2.9776017050109633,
+    "ci_95_upper": -1.2146184353474703,
+    "bootstrap_n": 10000,
+    "bootstrap_method": "standard",
+    "mean_std": 1.9084064302320805,
+    "mean_rec": 3.959726794291754,
+    "w_stat": 0.0,
+    "delta": 2.0513203640596736
+  },
+  "LSTM_RMSE_test": {
+    "metric": "RMSE",
+    "n_batteries": 4,
+    "unit": "battery-level",
+    "p_wilcoxon": 0.125,
+    "significant_wilcoxon": false,
+    "cohen_d_z": -4.938005341718502,
+    "effect_size": "Büyük",
+    "ci_95_lower": -0.012716854508630967,
+    "ci_95_upper": -0.009160609383747324,
+    "bootstrap_n": 10000,
+    "bootstrap_method": "standard",
+    "mean_std": 0.04688783757736295,
+    "mean_rec": 0.05793567548477957,
+    "w_stat": 0.0,
+    "delta": 0.011047837907416619
+  },
+  "LSTM_MAE_test": {
+    "metric": "MAE",
+    "n_batteries": 4,
+    "unit": "battery-level",
+    "p_wilcoxon": 0.125,
+    "significant_wilcoxon": false,
+    "cohen_d_z": -4.528780596170005,
+    "effect_size": "Büyük",
+    "ci_95_lower": -0.010560997230421771,
+    "ci_95_upper": -0.007357153856671019,
+    "bootstrap_n": 10000,
+    "bootstrap_method": "standard",
+    "mean_std": 0.03796678816595384,
+    "mean_rec": 0.04689490772846655,
+    "w_stat": 0.0,
+    "delta": 0.008928119562512708
+  },
+  "LSTM_MAPE_test": {
+    "metric": "MAPE",
+    "n_batteries": 4,
+    "unit": "battery-level",
+    "p_wilcoxon": 0.125,
+    "significant_wilcoxon": false,
+    "cohen_d_z": -3.6112816664370055,
+    "effect_size": "Büyük",
+    "ci_95_lower": -1.3566877257835661,
+    "ci_95_upper": -0.840549442868987,
+    "bootstrap_n": 10000,
+    "bootstrap_method": "standard",
+    "mean_std": 4.838517711104279,
+    "mean_rec": 5.921956602036226,
+    "w_stat": 0.0,
+    "delta": 1.083438890931947
+  },
+  "GRU_RMSE_test": {
+    "metric": "RMSE",
+    "n_batteries": 4,
+    "unit": "battery-level",
+    "p_wilcoxon": 0.125,
+    "significant_wilcoxon": false,
+    "cohen_d_z": -4.053317608415082,
+    "effect_size": "Büyük",
+    "ci_95_lower": -0.013425386271877907,
+    "ci_95_upper": -0.008900608112509749,
+    "bootstrap_n": 10000,
+    "bootstrap_method": "standard",
+    "mean_std": 0.03196666926257599,
+    "mean_rec": 0.04366762785851382,
+    "w_stat": 0.0,
+    "delta": 0.011700958595937831
+  },
+  "GRU_MAE_test": {
+    "metric": "MAE",
+    "n_batteries": 4,
+    "unit": "battery-level",
+    "p_wilcoxon": 0.125,
+    "significant_wilcoxon": false,
+    "cohen_d_z": -3.1254665574795393,
+    "effect_size": "Büyük",
+    "ci_95_lower": -0.009868542640732617,
+    "ci_95_upper": -0.005707831442538426,
+    "bootstrap_n": 10000,
+    "bootstrap_method": "standard",
+    "mean_std": 0.02522074034378107,
+    "mean_rec": 0.03341948704495239,
+    "w_stat": 0.0,
+    "delta": 0.008198746701171315
+  },
+  "GRU_MAPE_test": {
+    "metric": "MAPE",
+    "n_batteries": 4,
+    "unit": "battery-level",
+    "p_wilcoxon": 0.125,
+    "significant_wilcoxon": false,
+    "cohen_d_z": -3.042311847160347,
+    "effect_size": "Büyük",
+    "ci_95_lower": -1.2434025824497434,
+    "ci_95_upper": -0.6714565857983542,
+    "bootstrap_n": 10000,
+    "bootstrap_method": "standard",
+    "mean_std": 3.2494486388788406,
+    "mean_rec": 4.252757151907036,
+    "w_stat": 0.0,
+    "delta": 1.0033085130281956
+  },
+  "friedman_test": {
+    "metric": "RMSE",
+    "unit": "battery",
+    "n_observations": 4,
+    "n_models": 3,
+    "statistic": 8.0,
+    "p_value": 0.018315638888734186,
+    "significant": true,
+    "posthoc": {
+      "XGBoost vs LSTM": {
+        "p_value": 0.012987661373194181,
+        "significant": true,
+        "method": "Nemenyi"
+      },
+      "XGBoost vs GRU": {
+        "p_value": 0.33349932504015,
+        "significant": false,
+        "method": "Nemenyi"
+      },
+      "LSTM vs GRU": {
+        "p_value": 0.33349932504015,
+        "significant": false,
+        "method": "Nemenyi"
+      }
+    },
+    "posthoc_method": "Nemenyi (rank-based post-hoc)",
+    "bonferroni_alpha": 0.016666666666666666,
+    "bonferroni_pairs": {
+      "XGBoost_vs_LSTM": {
+        "p_raw": 0.125,
+        "p_bonferroni": 0.375,
+        "significant_bonferroni": false
+      },
+      "XGBoost_vs_GRU": {
+        "p_raw": 0.125,
+        "p_bonferroni": 0.375,
+        "significant_bonferroni": false
+      },
+      "LSTM_vs_GRU": {
+        "p_raw": 0.125,
+        "p_bonferroni": 0.375,
+        "significant_bonferroni": false
+      }
+    }
+  },
+  "descriptive_per_battery_rank": {
+    "XGBoost": {
+      "mean_rank": 1.0,
+      "ranks_per_battery": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "batteries": [
+        "B0005",
+        "B0006",
+        "B0007",
+        "B0018"
+      ]
+    },
+    "LSTM": {
+      "mean_rank": 3.0,
+      "ranks_per_battery": [
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ],
+      "batteries": [
+        "B0005",
+        "B0006",
+        "B0007",
+        "B0018"
+      ]
+    },
+    "GRU": {
+      "mean_rank": 2.0,
+      "ranks_per_battery": [
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "batteries": [
+        "B0005",
+        "B0006",
+        "B0007",
+        "B0018"
+      ]
+    }
+  },
+  "ablation_lag_free": {
+    "results": {
+      "XGBoost": {
+        "metric": "XGBoost_RMSE",
+        "n_batteries": 4,
+        "unit": "battery-level",
+        "p_wilcoxon": 0.125,
+        "significant_wilcoxon": false,
+        "cohen_d_z": -2.260737257883725,
+        "effect_size": "Büyük",
+        "ci_95_lower": -0.0272771504597184,
+        "ci_95_upper": -0.012520992423061764,
+        "mean_lag_li": 0.01893111434870018,
+        "mean_lag_free": 0.03991161091217137,
+        "delta": -0.020980496563471195,
+        "note": "n=4 için betimleyici olarak yorumlanmalıdır."
+      },
+      "LSTM": {
+        "metric": "LSTM_RMSE",
+        "n_batteries": 4,
+        "unit": "battery-level",
+        "p_wilcoxon": 0.125,
+        "significant_wilcoxon": false,
+        "cohen_d_z": -0.6971492219451486,
+        "effect_size": "Orta",
+        "ci_95_lower": -0.03040250946355883,
+        "ci_95_upper": -0.0015968213547429676,
+        "mean_lag_li": 0.04688783757736295,
+        "mean_lag_free": 0.05969033849342563,
+        "delta": -0.012802500916062678,
+        "note": "n=4 için betimleyici olarak yorumlanmalıdır."
+      },
+      "GRU": {
+        "metric": "GRU_RMSE",
+        "n_batteries": 4,
+        "unit": "battery-level",
+        "p_wilcoxon": 0.625,
+        "significant_wilcoxon": false,
+        "cohen_d_z": -0.5578745116573711,
+        "effect_size": "Orta",
+        "ci_95_lower": -0.02410396897896125,
+        "ci_95_upper": 0.0016237616956905586,
+        "mean_lag_li": 0.03196666926257599,
+        "mean_lag_free": 0.04094552171755724,
+        "delta": -0.00897885245498125,
+        "note": "n=4 için betimleyici olarak yorumlanmalıdır."
+      }
+    },
+    "summary_table": [
+      {
+        "Model": "XGBoost",
+        "Lag-li Std RMSE": 0.01893111434870018,
+        "Lag-siz Std RMSE": 0.03991161091217137,
+        "DeltaRMSE": -0.020980496563471195,
+        "Wilcoxon p": 0.125,
+        "Cohen's dz": -2.260737257883725
+      },
+      {
+        "Model": "LSTM",
+        "Lag-li Std RMSE": 0.04688783757736295,
+        "Lag-siz Std RMSE": 0.05969033849342563,
+        "DeltaRMSE": -0.012802500916062678,
+        "Wilcoxon p": 0.125,
+        "Cohen's dz": -0.6971492219451486
+      },
+      {
+        "Model": "GRU",
+        "Lag-li Std RMSE": 0.03196666926257599,
+        "Lag-siz Std RMSE": 0.04094552171755724,
+        "DeltaRMSE": -0.00897885245498125,
+        "Wilcoxon p": 0.625,
+        "Cohen's dz": -0.5578745116573711
+      }
+    ]
+  }
+}
